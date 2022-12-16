@@ -1,0 +1,179 @@
+html {
+    font-family: "Montserrat";
+}
+nav ul {
+	margin: 0;
+	text-align:end;
+	padding: 20px;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+    text-decoration-style: solid;
+}
+
+.entete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 2;
+}
+
+header h1 a {
+    color: #000;
+	text-decoration: none;
+}
+
+.logo  {
+    flex-grow: 1;
+}
+
+footer{
+    background-color: lightgrey;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.part2 {
+    display: flex;
+justify-content: space-between;
+}
+
+.part1{
+    display: flex;
+}
+
+.RS {
+    display: flex;
+    order:2;
+    justify-content: flex-end;
+}
+
+.RS img {
+    margin: 5px;
+}
+
+hr {
+    margin-top: 2vw;
+    margin-bottom: 30px;
+}
+
+.part2 {
+    padding-bottom: 30px;
+}
+.part2 a:hover {
+    color: black;
+}
+
+.part2 a:visited {
+color: #000;
+}
+button {
+    font-family: "Montserrat";
+    color: white;
+    background-color: #000;
+    border-radius: 15px;
+    font-size: 1em;
+    padding: 0 20px;
+    border: none;
+}
+.newsletter { display: flex;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    justify-content: space-between;
+}
+
+.cliquable {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter label{
+font-size: 35px;
+}
+
+.newsletter input {
+    margin-top: 1vw;
+}
+#product{
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+#picto{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#wifi p{
+    width: 20vw;
+}
+#car p{
+    width: 20vw;
+}
+#car, #wifi{
+    text-align: center;
+}
+#cigar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+#cigar p {
+    width: 20vw;
+    text-align: center;
+}
+#temperature{
+    padding-top: 21.5vw;
+    padding-bottom: 21.5vw;
+    background-image: url(image/Double.jpg);
+    margin-top: 5vw;
+    margin-right: 3.5vw;
+    margin-left: 3.5vw;
+    align-items: center;
+}
+#temperature h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+#where{
+    text-align: center;
+    margin-top: 10vw;
+}
+#pictowhere{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vw;
+}
+#supermarche, #garage, #amazon, #sell{
+    text-align: center;
+    width: 10vw;
+}
+
